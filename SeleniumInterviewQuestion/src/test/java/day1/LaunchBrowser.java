@@ -12,7 +12,7 @@ public class LaunchBrowser {
 		String url = driver.getCurrentUrl(); // Capture the CurrentURL of the application
 		System.out.println("URL of the page is :" + url);
 		String pageSource = driver.getPageSource(); // Capture the source code of the application
-		System.out.println("Page source is :" + pageSource);
+		System.out.println("Page source :" + pageSource);
 	}
 
 }
